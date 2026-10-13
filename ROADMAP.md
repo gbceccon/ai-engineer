@@ -4,6 +4,15 @@
 **Pace:** 15–20h/week · 12h project / 4–6h theory · **never study without a commit**.
 **Rules:** phase gate = working, documented deliverable · ≥4 commits/week · 1 public artifact/month (English) · 2-week buffers after Phases 4 and 6.
 
+## 👉 WHERE I AM — current task
+
+> **Phase 0 · Week 1 — Setup.** Open [phases/PHASE-0-1-RUNBOOK.md](phases/PHASE-0-1-RUNBOOK.md) and work the
+> "Phase 0" checklist top-to-bottom: create GitHub repo → push → branch protection → local install + `pytest` →
+> LinkedIn post #0. Gate ✔ when GitHub Actions shows green and the README is live. Then Phase 1 starts (same file).
+
+*Update this block every Sunday retro (phase / week / slice of the week). This is the single "you are here" marker.*
+
+
 | # | Phase | Weeks | Deliverable (exit gate) | Status |
 |---|-------|-------|--------------------------|--------|
 | 0 | Setup & Toolkit | 1 | Public repo + green CI + revised US CV v1 | 🔵 in progress |
