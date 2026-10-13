@@ -4,7 +4,7 @@
 - [ ] Create GitHub repo `ai-engineer` (public) and connect:
       `git remote add origin git@github.com:<user>/ai-engineer.git && git push -u origin main`
 - [ ] Enable branch protection on `main` (require CI green)
-- [ ] Install local tooling: `python -m venv .venv && pip install -e ".[dev]"` → run `pytest`
+- [x] Install local tooling: `python -m venv .venv && pip install -e ".[dev]"` → run `pytest` ✔ (2025-10-12, 4 passed on pyenv 3.11.9)
 - [ ] Post #0 on LinkedIn: announce the 12-month public learning journey (link repo)
 - **Gate:** CI green on GitHub + README live. Done ✔ when the Actions badge shows passing.
 
