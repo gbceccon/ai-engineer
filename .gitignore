@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Environments & secrets — LLM API keys never go to git
+.env
+*.env
+secrets/
+
+# Local tooling
+.DS_Store
+.idea/
+.vscode/
+
+# Data hygiene: keep synthetic fixtures only; real exports never enter this repo
+data/raw/
+*.xlsx
+*.csv.local
+
+# Personal CV files (keep local; publish selected versions explicitly)
+gabriel_ceccon_cv_*.docx
+gabriel_ceccon_cv_*.pdf

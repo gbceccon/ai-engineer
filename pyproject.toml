@@ -1,0 +1,26 @@
+[project]
+name = "ai-engineer"
+version = "0.0.1"
+description = "12-month AI engineering journey: evolving OpenPilot project (incident triage copilot for Open Finance)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+# Grow these as phases unlock: ph1 numpy/pandas/scikit-learn, ph3 torch/transformers,
+# ph4 llm-api/chromadb, ph5 langgraph/peft/trl, ph6 fastapi/docker
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 100
+src = ["openpilot", "tests"]
+extend-exclude = ["scripts"]  # one-off utility scripts (CV builder etc.)
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["openpilot"]
