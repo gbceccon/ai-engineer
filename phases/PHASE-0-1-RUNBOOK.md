@@ -1,12 +1,12 @@
 # Phase 0 & 1 Runbook — first commit to v0.1 (Weeks 1–6)
 
-## Phase 0 — Setup (Week 1, do this first)
-- [ ] Create GitHub repo `ai-engineer` (public) and connect:
-      `git remote add origin git@github.com:<user>/ai-engineer.git && git push -u origin main`
-- [ ] Enable branch protection on `main` (require CI green)
-- [x] Install local tooling: `python -m venv .venv && pip install -e ".[dev]"` → run `pytest` ✔ (2025-10-12, 4 passed on pyenv 3.11.9)
-- [ ] Post #0 on LinkedIn: announce the 12-month public learning journey (link repo)
-- **Gate:** CI green on GitHub + README live. Done ✔ when the Actions badge shows passing.
+## Phase 0 — Setup (Week 1) — ✅ completed 2025-10-12, 2 carryovers
+- [x] GitHub repo public and connected ✔ `github.com/gbceccon/ai-engineer` (pushed via SSH over agent)
+- [ ] ⚠️ Carryover 1: branch protection on `main` — repo → Settings → Branches → add rule requiring CI green (5 min)
+- [x] Install local tooling + `pytest` ✔ (4 passed, pyenv 3.11.9 pinned via `.python-version`)
+- [ ] ⚠️ Carryover 2: Post #0 on LinkedIn announcing the 12-month public journey (link repo) — do this week
+- [x] CI green on GitHub Actions ✔ verified on push `74b9b78` (and `85f4f6c`)
+- **Gate:** repo ✔ · CI ✔ · README live ✔ — carryovers close during Phase 1 Week 2, not blocking.
 
 ## Phase 1 — Python for AI + OpenPilot v0.1 (Weeks 2–6, ~12h/week)
 **Study (4–6h/week):** Python fluency (comprehensions, dataclasses, typing, pathlib),

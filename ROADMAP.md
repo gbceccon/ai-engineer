@@ -6,17 +6,19 @@
 
 ## 👉 WHERE I AM — current task
 
-> **Phase 0 · Week 1 — Setup.** Open [phases/PHASE-0-1-RUNBOOK.md](phases/PHASE-0-1-RUNBOOK.md) and work the
-> "Phase 0" checklist top-to-bottom: create GitHub repo → push → branch protection → local install + `pytest` →
-> LinkedIn post #0. Gate ✔ when GitHub Actions shows green and the README is live. Then Phase 1 starts (same file).
+> **Phase 1 · T1 — Synthetic dataset generator.** Branch `phase-1`. Open
+> [phases/phase-1-python-ai/README.md](phases/phase-1-python-ai/README.md) (task tracker T1–T5).
+> Today's slice: implement `openpilot/generate_cases.py` so `pytest tests/test_generate_cases.py`
+> goes from skipped → passed (the test file contains the full spec + HintBlockhints).
+> Carryovers from Ph0: branch protection (5 min, repo Settings) + LinkedIn post #0.
 
 *Update this block every Sunday retro (phase / week / slice of the week). This is the single "you are here" marker.*
 
 
 | # | Phase | Weeks | Deliverable (exit gate) | Status |
 |---|-------|-------|--------------------------|--------|
-| 0 | Setup & Toolkit | 1 | Public repo + green CI + revised US CV v1 | 🔵 in progress |
-| 1 | Python for AI | 2–6 | **OpenPilot v0.1** — synthetic Open Finance incident dataset + TF-IDF search + sklearn incident-type classifier (baseline documented) | ⚪ |
+| 0 | Setup & Toolkit | 1 | Public repo + green CI + revised US CV v1 | ✅ 2025-10-12 (CI green) |
+| 1 | Python for AI | 2–6 | **OpenPilot v0.1** — synthetic Open Finance incident dataset + TF-IDF search + sklearn incident-type classifier (baseline documented) | 🔵 in progress |
 | 2 | Applied ML + Evaluation | 7–12 | Evaluation dashboard + SLA breach predictor + Article 1 ("Baselines matter") | ⚪ |
 | 3 | Deep Learning (PyTorch) | 13–20 | **v0.2** — fine-tuned BERT root-cause classifier + semantic embeddings search; beats v0.1 on benchmark | ⚪ |
 | 4 | LLMs + RAG | 21–28 | **v0.3** — RAG chat over incident history + BACEN rules with citations + evaluation harness (20 golden questions; accuracy/cost/latency) + Article 2 | ⚪ |

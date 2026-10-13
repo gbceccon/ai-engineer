@@ -6,9 +6,15 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
-# Grow these as phases unlock: ph1 numpy/pandas/scikit-learn, ph3 torch/transformers,
+# Grow these as phases unlock: ph3 torch/transformers,
 # ph4 llm-api/chromadb, ph5 langgraph/peft/trl, ph6 fastapi/docker
-dev = ["pytest>=8", "ruff>=0.6"]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+]
 
 [tool.ruff]
 line-length = 100
